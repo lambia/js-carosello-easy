@@ -12,17 +12,19 @@ body {
     text-align: center;
 }
 
-#image-wrapper {
+#card-image-wrapper {
     width: 700px;
-    height: 150px;
+    height: 300px;
     margin: 0 auto;
 }
 
-.slide {
+.card-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: bottom;
+}
+
+.card {
     display: none;
 }
 
